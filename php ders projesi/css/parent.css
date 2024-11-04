@@ -1,0 +1,48 @@
+/* parent.css - Veli Giriş Stili */
+body {
+    background-color: #38ada9;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #78e08f;
+    border-radius: 10px;
+}
+
+.form-container label {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.form-container input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background-color: #079992;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #34ace0;
+}

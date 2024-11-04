@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe5f1;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #ff69b4;
+  }
+  
+  .periyodik-tablo {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .element {
+    background-color: #ffb3c6;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .element:hover {
+    transform: scale(1.1);
+    background-color: #ffd1dc;
+  }
+  
+  /* Modal Stil */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-icerik {
+    background-color: #fff0f5;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #ff69b4;
+    width: 80%;
+    max-width: 400px;
+    text-align: left;
+    border-radius: 10px;
+  }
+  
+  .kapat {
+    color: #ff69b4;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  

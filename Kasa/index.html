@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasa Hedef Oyunu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="casino-container">
+        <h1>Kasa Hedef Oyunu</h1>
+        <div class="target">
+            <p>Hedef Doluluk: <span id="target">100</span></p>
+        </div>
+        <div class="vault">
+            <p>Kasa Doluluğu: <span id="progress">0</span></p>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+        </div>
+        <div class="tokens">
+            <button class="token" data-value="10">+10</button>
+            <button class="token" data-value="20">+20</button>
+            <button class="token" data-value="30">+30</button>
+        </div>
+        <button id="play-button">Yeniden Oyna</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

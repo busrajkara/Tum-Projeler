@@ -1,0 +1,48 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0'); /* Arka plan resmi */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 400px;
+    padding: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Yarı saydam arka plan */
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Hover etkisi */
+}
+
+#weatherResult {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.weather-icon {
+    width: 100px; /* Hava durumu simgesi boyutu */
+}

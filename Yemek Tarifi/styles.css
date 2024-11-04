@@ -1,0 +1,42 @@
+/* Renk paleti: Açık kahverengi arka plan, siyah yazı */
+body {
+    background-color: #f5f5dc;
+    color: #000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #8b4513;
+}
+
+.recipe {
+    background-color: #fff;
+    border: 1px solid #8b4513;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 15px;
+    text-align: left;
+}
+
+.recipe h2 {
+    color: #8b4513;
+    margin: 0;
+}
+
+.recipe ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.recipe p {
+    color: #333;
+}

@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Domates Çorbası",
+        "category": "Çorba",
+        "ingredients": ["Domates", "Su", "Tuz", "Un"],
+        "steps": "Domatesleri rendeleyin ve su ile karıştırarak pişirin.",
+        "isFavorite": false
+    },
+    {
+        "name": "Peynirli Makarna",
+        "category": "Ana Yemek",
+        "ingredients": ["Makarna", "Peynir", "Tereyağı"],
+        "steps": "Makarnayı haşlayın, tereyağı ve peynir ekleyin.",
+        "isFavorite": true
+    }
+]
